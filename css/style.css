@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;500;600;800;900&display=swap');
+
+body {
+	font-family: 'Poppins', sans-serif;
+	background-color: white; 
+}
+
+h1, h2, h3 {
+	font-weight:900
+}
+
+h4 {
+	font-weight:800;
+}
+
+h5, h6 {
+	font-weight:600;
+}
+
+.image {
+    display: block;
+	margin:0 auto;
+    max-width: 150px;
+    max-height: 150px;
+	width:auto;
+	height:auto;
+    background: #E6E7ED;
+    border-radius:100px;   
+    text-align:center;
+	overflow:hidden;
+	box-shadow: 0px 0px 11px 5px rgba(0,0,0,0.2);
+}
+
+.image img{
+	display:block;
+	width:150px;
+	overflow:hidden;
+	position:relative;
+	top:50%;
+	left:50%;
+	transform:translate(-50%, -20%);
+}
+
+.container {
+	display:flex;
+	flex:1;
+	margin:0 auto;
+	width: 70%;	
+	flex-direction:column;
+}
+
+.card-design {
+	background-color: white;
+	padding: 50px;
+	border-radius:15px;
+	margin:20px 0;
+	box-shadow:0px 0px 13px 5px rgba(0,0,0,0.2);
+	text-align:center;
+
+}
+
+.btn-green {
+	padding:10px 20px;
+	background-color:#28cf81;
+	box-shadow:0px 0px 13px 5px rgba(0,0,0,0.2);
+	font-weight:800;
+	text-transform:uppercase;
+	border-radius:25px;
+	color:white;
+	text-decoration:none;
+	transition:all .5s;
+	display:block;
+	margin:20px auto 0 auto;
+	width:fit-content;
+}
+.btn-green:hover {
+	background-color:#129c5c;
+	/* box-shadow:0px 0px 13px 7px rgba(0,0,0,0.3); */
+}
+.list-inline {
+	list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+	margin:auto;
+	width:fit-content;
+}
+.list-inline li {
+    background-color: white;
+    text-align: center;
+    flex-grow: 0;
+	margin:10px 15px;
+	padding:10px;
+	border-radius:30px;
+	border:solid 2px #28cf81;
+	background-color:white;
+	width:30px;
+	height:30px;
+	transition:all .5s;
+}
+.list-inline li a {
+	color:#28cf81;
+	font-weight:800;
+	text-decoration:none;
+	font-size:22px;
+	transition:all 1s;
+}
+.list-inline li:hover {
+	background-color:#28cf81;
+	color:white;
+	box-shadow:0px 0px 13px 5px rgba(0,0,0,0.2);
+	transition:all .5s;
+}
+.list-inline li:hover a {
+	color:white;
+}
